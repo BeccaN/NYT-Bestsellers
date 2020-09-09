@@ -1,4 +1,6 @@
-# source 'https://rubygems.org'
+source 'https://rubygems.org'
 
-# gem 'pry'
-# gem 'require_all'
+gem 'pry'
+gem 'nokogiri'
+
+#gem 'require_all'
