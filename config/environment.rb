@@ -7,6 +7,4 @@ require 'json'
 
 require_relative '../lib/cli_class.rb'
 require_relative '../lib/scraper.rb'
-require_relative '../lib/spells.rb'
-
-#require_all '..lib'
+require_relative '../lib/skill.rb'
