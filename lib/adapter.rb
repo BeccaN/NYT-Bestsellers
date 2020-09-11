@@ -1,21 +1,23 @@
 class API
 
-    BASE_URL = "https://www.dnd5eapi.co/api/skills/"
+    #URL = "https://www.nytimes.com/books/best-sellers/combined-print-and-e-book-fiction/"
 
 
-    def self.get_skills
+    def self.get_books
         
-        url = BASE_URL
+
+        url = "https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=fsJWHJdonSPPSpN9GGGOtAam61EcmrwM"
+
         uri = URI.parse(url)
-        response = Net::HTTP.get_response(uri)
-        data = JSON.parse(response.body)
-        data = data["results"]
+        body = uri.read
+        data = JSON.parse(body)
+        
+        #make the book objects
+        book_data = data["results"]["books"] #array of hashes for each book in rank order
+        
 
+        #make the list date object
+        #List.new(data["results"]["bestsellers_date"])
 
-
-        binding.pry
     end 
 end 
-
-
-#I'm going to need to change my plan here, this requires me to access 19 different URLs
