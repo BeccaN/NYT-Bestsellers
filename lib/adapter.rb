@@ -12,12 +12,15 @@ class API
         body = uri.read
         data = JSON.parse(body)
         
-        #make the book objects
-        book_data = data["results"]["books"] #array of hashes for each book in rank order
         
+        book_data = data["results"]["books"] 
+        
+        book_data.each do |book|
+            Book.new(book["rank"], book["weeks_on_list"], book["publisher"], book["description"], book["title"], book["author"])
+        end 
 
         #make the list date object
-        #List.new(data["results"]["bestsellers_date"])
+        List.new(data["results"]["bestsellers_date"])
 
     end 
 end 
