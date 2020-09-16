@@ -1,7 +1,6 @@
-# NYT Hardcover Bestsellers
-### This is an adaptation of the original gem written by dannyd4315. I have added in CSS selectors in the restaurant.rb file, and updated the scraped urls to use https instead of http. 
+# NYT Hardcover Bestsellers 
 
-This Ruby Gem provides a CLI to view the 50 best restaurants in the World as per the San Pellegrino sponsored 50 Best Restaurants in the World website.
+This program provides a CLI to view the NY Times current hardcover fiction bestsellers. The user can then choose a book from the list they wish to learn more about.
 
 ## Installation
 
