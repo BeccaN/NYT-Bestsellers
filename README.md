@@ -4,11 +4,11 @@ This program provides a CLI to view the NY Times current hardcover fiction bests
 
 ## Installation
 
-To start working with NYT Hardcover Bestsellers, first clone the repository and open it up in your local code editing software. 
+To start working with NYT Hardcover Bestsellers, first clone the repository.
 
 ## Usage
 
-Open your terminal and first install the dependencies:
+Open your terminal while inside the repository and install the dependencies:
 
     $ bundle install
 
