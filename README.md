@@ -18,8 +18,7 @@ To then run the program run the file inside the bin folder:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/dannyd4315/worlds-best-restaurants-cli-gem. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
-
+Bug reports and pull requests are welcome on GitHub at https://github.com/BeccaN/NYT-Hardcover-Bestsellers. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 ## License
 
