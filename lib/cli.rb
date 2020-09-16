@@ -24,7 +24,11 @@ class CLI
         end 
 
         List.all.each do |list|
-            puts "#{list.date}"
+            list_array = list.date.split("-")
+            puts "
+This list was established on #{list_array[1]}/#{list_array[2]}/#{list_array[0]}!
+----------------------------------------
+"
         end 
 
         Book.all.each do |ind_book|
@@ -33,7 +37,7 @@ class CLI
     end 
 
     def book_prompt
-        puts "
+        puts "----------------------------------------
 Please input the number of the book you wish to learn more about."
         input = gets
 
@@ -44,20 +48,18 @@ Please input the number of the book you wish to learn more about."
 
         input_index = input.to_i - 1
         
-        puts "------
-#{Book.all[input_index].rank}. #{Book.all[input_index].title} by #{Book.all[input_index].author}
+        puts "
+#{Book.all[input_index].title} by #{Book.all[input_index].author}
 Weeks on list: #{Book.all[input_index].weeks_on_list} | Published by: #{Book.all[input_index].publisher}
-#{Book.all[input_index].description}
-------"
+#{Book.all[input_index].description}"
     end 
 
 
     def menu
-        puts "------
-MENU:
+        puts "
+--MENU--
 1. Books List
 2. Exit
-------
 
 Please enter number 1 or 2 to continue...
 "
