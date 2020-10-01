@@ -5,6 +5,7 @@ require 'open-uri'
 require 'net/http'
 require 'openssl'
 require 'json'
+require 'dotenv/load'
 
 require_relative '../lib/adapter.rb'
 require_relative '../lib/book.rb'

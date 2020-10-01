@@ -3,6 +3,7 @@ class CLI
     def main
         greet_user
         fetch_books
+        # binding.pry
         menu
     end 
 
