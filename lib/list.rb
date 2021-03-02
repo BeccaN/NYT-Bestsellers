@@ -1,5 +1,4 @@
 class List
-
     @@all = []
 
     attr_accessor :date 
@@ -12,5 +11,4 @@ class List
     def self.all
         @@all 
     end 
-
 end 
