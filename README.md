@@ -1,15 +1,11 @@
 # NYT Hardcover Bestsellers 
 
-This program provides a CLI to view the NY Times current hardcover fiction bestsellers. The user can then choose a book from the list they wish to learn more about.
-
-## Installation
-
-To start working with NYT Hardcover Bestsellers, first clone the repository.
+This is a CLI that fetches NY Times bestsellers for several genres including Fiction, Non-Fiction, Graphic Novels, Childrens Books, Picture Books, Young Adult, Animals, Business, Crime, Culture, Food & Fitness, Race and Civil Rights, Science, Sports and Travel.
 
 ## Usage
+Fork and clone the repository to your local machine
 
-Open your terminal while inside the repository and install the dependencies:
-
+Run `bundle install` to make sure all required gems are installed
     $ bundle install
 
 To then run the program run the file inside the bin folder:
