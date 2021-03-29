@@ -1,4 +1,4 @@
-# NYT Hardcover Bestsellers 
+# NYT Bestsellers 
 
 This is a CLI that fetches NY Times bestsellers for several genres including Fiction, Non-Fiction, Graphic Novels, Childrens Books, Picture Books, Young Adult, Animals, Business, Crime, Culture, Food & Fitness, Race and Civil Rights, Science, Sports and Travel.
 
