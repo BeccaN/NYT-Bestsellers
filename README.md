@@ -6,9 +6,8 @@ This is a CLI that fetches NY Times bestsellers for several genres including Fic
 Fork and clone the repository to your local machine
 
 Run `bundle install` to make sure all required gems are installed
-    $ bundle install
 
-To then run the program run the file inside the bin folder:
+To start the program run the file inside the bin folder:
 
     $ ruby ./bin/top_books.rb
 
