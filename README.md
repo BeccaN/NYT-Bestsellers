@@ -2,6 +2,8 @@
 
 This is a CLI that fetches NY Times bestsellers for several genres including Fiction, Non-Fiction, Graphic Novels, Childrens Books, Picture Books, Young Adult, Animals, Business, Crime, Culture, Food & Fitness, Race and Civil Rights, Science, Sports and Travel.
 
+[Demo](https://www.youtube.com/watch?v=JD4Qi9Ttbic)
+
 ## Usage
 Fork and clone the repository to your local machine
 
