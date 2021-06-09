@@ -4,7 +4,7 @@ class BooksList
     ["Non-Fiction", "combined-print-and-e-book-nonfiction"],
     ["Graphic Novels", "graphic-books-and-manga"],
     ["Childrens Books", "chapter-books"],
-    ["Childrens Picture Books:", "picture-books"],
+    ["Childrens Picture Books", "picture-books"],
     ["Young Adult", "young-adult"],
     ["Animals", "animals"],
     ["Business", "business-books"],

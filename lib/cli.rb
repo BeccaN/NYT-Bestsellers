@@ -18,7 +18,7 @@ class CLI
     def greet_user
         puts "#{@@seperator}
 Greetings Bookworm! Lets take a look at current NY Times Hardcover Fiction bestsellers!
-#{@@seperator}".colorize(:blue)
+#{@@seperator}".colorize(:light_blue)
     end 
     
     def fetch_books
@@ -28,7 +28,7 @@ Greetings Bookworm! Lets take a look at current NY Times Hardcover Fiction bests
 
         puts "#{@@seperator}
 Please enter the number of the coordinating book list you wish to view!
-#{@@seperator}".colorize(:blue)
+#{@@seperator}".colorize(:light_blue)
 
         #need to add validation
         validate_input(15)
@@ -50,7 +50,7 @@ Please enter the number of the coordinating book list you wish to view!
             list_array = list.date.split("-")
             puts "#{@@seperator}
 This list was established on #{list_array[1]}/#{list_array[2]}/#{list_array[0]}!
-#{@@seperator}".colorize(:blue)
+#{@@seperator}".colorize(:light_blue)
         end 
 
         Book.all.each do |ind_book|
@@ -62,7 +62,7 @@ This list was established on #{list_array[1]}/#{list_array[2]}/#{list_array[0]}!
     def book_prompt
         puts "#{@@seperator}
 Please enter the number of the book you wish to learn more about.
-#{@@seperator}".colorize(:blue)
+#{@@seperator}".colorize(:light_blue)
         
         validate_input(Book.all.length())
 
@@ -83,7 +83,7 @@ Amazon Link: #{Book.all[input_index].link}
 2. Exit"
         puts "#{@@seperator}
 Please enter number 1 or 2 to continue...
-#{@@seperator}".colorize(:blue)
+#{@@seperator}".colorize(:light_blue)
 
         validate_input(2)
 
